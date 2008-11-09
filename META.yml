@@ -1,0 +1,24 @@
+---
+abstract: 'Inspect and Manipulate a Path based on a Package Name'
+author:
+  - 'Chris Prather  C<< <perigrin@cpan.org> >>'
+build_requires:
+  Test::More: 0.42
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Devel-PackagePath
+no_index:
+  directory:
+    - ex
+    - inc
+    - t
+requires:
+  MooseX::Types::Path::Class: 0
+  Mouse: 0.10
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
