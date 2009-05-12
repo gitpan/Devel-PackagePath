@@ -3,9 +3,12 @@ abstract: 'Inspect and Manipulate a Path based on a Package Name'
 author:
   - 'Chris Prather  C<< <perigrin@cpan.org> >>'
 build_requires:
+  ExtUtils::MakeMaker: 6.42
   Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.77'
+generated_by: 'Module::Install version 0.86'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,8 +20,8 @@ no_index:
     - inc
     - t
 requires:
-  MooseX::Types::Path::Class: 0
-  Mouse: 0.10
+  Moose: 0.64
+  MooseX::Types::Path::Class: 0.04
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
