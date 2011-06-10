@@ -1,6 +1,6 @@
 package Devel::PackagePath;
 use Moose;
-our $VERSION = '0.02';
+our $VERSION = 0.03;
 use MooseX::Types::Path::Class qw(Dir);
 
 has package => (
